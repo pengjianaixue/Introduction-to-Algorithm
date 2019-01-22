@@ -1,0 +1,13 @@
+﻿  InsertSortunitTest.cpp
+c:\users\eijpnae\source\repos\introduction to algorithms\introduction-to-algorithm\introduction to algorithm\insertsort\insertsortunittest.cpp(8): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\eijpnae\source\repos\introduction to algorithms\introduction-to-algorithm\introduction to algorithm\insertsort\insertsortunittest.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\eijpnae\source\repos\introduction to algorithms\introduction-to-algorithm\introduction to algorithm\insertsort\insertsort.h(35): warning C4018: “<”: 有符号/无符号不匹配
+  c:\users\eijpnae\source\repos\introduction to algorithms\introduction-to-algorithm\introduction to algorithm\insertsort\insertsortunittest.cpp(15): note: 参见对正在编译的函数 模板 实例化“void SelfAlgorithm::InsertSort::SelfInsertSort<double>(T *,int)”的引用
+          with
+          [
+              T=double
+          ]
+  InsertSort.cpp
+  正在生成代码...
+  InsertSort.vcxproj -> C:\Users\eijpnae\Source\Repos\Introduction to Algorithms\Introduction-to-Algorithm\Introduction to Algorithm\Debug\InsertSort.exe
+  InsertSort.vcxproj -> C:\Users\eijpnae\Source\Repos\Introduction to Algorithms\Introduction-to-Algorithm\Introduction to Algorithm\Debug\InsertSort.pdb (Full PDB)
