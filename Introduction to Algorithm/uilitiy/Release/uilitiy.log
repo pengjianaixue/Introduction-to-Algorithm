@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  TimeClock.cpp
+TimeClock.cpp(28): warning C4244: “初始化”: 从“double”转换到“__int64”，可能丢失数据
+  uilitiyTest.cpp
+uilitiyTest.cpp(11): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+  uilitiyTest.cpp(11): note: 请考虑在格式字符串中使用“%lld”
+  uilitiyTest.cpp(11): note: 请考虑在格式字符串中使用“%I64d”
+  uilitiy.vcxproj -> C:\Users\eijpnae\Source\Repos\Introduction to Algorithms\Introduction-to-Algorithm\Introduction to Algorithm\Release\uilitiy.lib

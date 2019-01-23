@@ -3,7 +3,7 @@ namespace SelfAlgorithm
 {
 	/*
 	insertSort 排序思想是把最新的元素插入到已经排好队的队列中，这样的有点在于，只要新元素找到一个位置是比它小
-			   则可以终止循环 ，把这个新元素放在前一个比它大元素的位置即可
+			   则可以终止循环 ，把这个新元素放在前一个比它大元素的位置即可 时间复杂度为 O(n^2)
 	*/
 	class InsertSort
 	{
@@ -22,7 +22,7 @@ namespace SelfAlgorithm
 		{
 			auto temp = array[i];
 			
-			for (size_t j = i; j >0; j--) // 这么方法会造成元素已经到了正确的位置还是继续循环
+			for (size_t j = i; j >0; j--) // 会造成元素已经到了正确的位置还是继续循环
 			{
 				if(array[j - 1]>temp)
 				{
