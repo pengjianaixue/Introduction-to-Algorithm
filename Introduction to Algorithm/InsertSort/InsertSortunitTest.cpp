@@ -1,15 +1,15 @@
 #include "stdafx.h"
-#include "Resoure.h"
 #include "InsertSort.h"
 #include "../uilitiy/TimeClock.h"
 int main()
 {
 	
-	int size = 100000;
+	int size = 10000;
 	double *needsort = new double[size];
 	TimeClock a;
 	for (size_t i = 0; i < size; i++)
 	{
+		
 		needsort[i] = (rand() % size)/1.1;
 		//COUT(needsort[i]);
 	}
@@ -17,7 +17,7 @@ int main()
 	auto time = a.MsTimeGetCounter();
 	auto timeponitsort = TimeClock::Gettime_point();
 	SelfAlgorithm::InsertSort::SelfInsertSort(needsort, size);
-	auto timesort = a.MsTimeGetCounter(timeponitsort);
+	auto timesort = TimeClock::MsTimeGetCounter(timeponitsort);
 	/*for (size_t i = 0; i < size; i++)
 	{
 		COUT(needsort[i]);

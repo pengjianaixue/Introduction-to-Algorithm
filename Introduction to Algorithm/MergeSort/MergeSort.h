@@ -9,8 +9,7 @@
 namespace  SelfAlgorithm
 {	
 	/*
-	MergeSort main mind is 
-
+		MergeSort main mind is 
 	*/
 	class CLASS_DLL_API MergeSort
 	{

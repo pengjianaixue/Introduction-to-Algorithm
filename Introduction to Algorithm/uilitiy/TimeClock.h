@@ -2,6 +2,7 @@
 #ifndef _TIME_CLOCK_H
 #define _TIME_CLOCK_H
 #include <chrono>
+#include "Resoure.h"
 #ifdef CLASS_DLL_EXPORTS
 	#define CLASS_DLL_API __declspec(dllexport)
 #else
@@ -31,7 +32,12 @@ public:
 	@brief Get the gap time of function run and input  milliseconds second time ;
 	@param high_clock::time_point timestart start time
 	*/
-	unsigned long long  MsTimeGetCounter(high_clock::time_point timestart);
+	static unsigned long long  MsTimeGetCounter(high_clock::time_point timestart);
+	/**
+	@brief Get the gap time of function run and input  Mirco second time ;
+	@param high_clock::time_point timestart start time
+	*/
+	static unsigned long long MircoSecondsTimeGetCounter(high_clock::time_point timestart);
 	/**
 	@brief Get the  time_point class  of function run;
 	*/

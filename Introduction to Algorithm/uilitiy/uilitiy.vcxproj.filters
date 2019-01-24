@@ -27,6 +27,9 @@
     <ClInclude Include="TimeClock.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Resoure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

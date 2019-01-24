@@ -1,3 +1,8 @@
 ﻿  MergeSort.cpp
+c:\users\eijpnae\source\repos\introduction to algorithms\introduction-to-algorithm\introduction to algorithm\mergesort\mergesort.cpp(7): warning C4273: “SelfAlgorithm::MergeSort::MergeSort”: dll 链接不一致
+  c:\users\eijpnae\source\repos\introduction to algorithms\introduction-to-algorithm\introduction to algorithm\mergesort\mergesort.h(18): note: 参见“{ctor}”的前一个定义
+c:\users\eijpnae\source\repos\introduction to algorithms\introduction-to-algorithm\introduction to algorithm\mergesort\mergesort.cpp(13): warning C4273: “SelfAlgorithm::MergeSort::~MergeSort”: dll 链接不一致
+  c:\users\eijpnae\source\repos\introduction to algorithms\introduction-to-algorithm\introduction to algorithm\mergesort\mergesort.h(19): note: 参见“{dtor}”的前一个定义
+    ╒²╘┌┤┤╜¿┐Γ C:\Users\eijpnae\Source\Repos\Introduction to Algorithms\Introduction-to-Algorithm\Introduction to Algorithm\Debug\MergeSort.lib ║═╢╘╧≤ C:\Users\eijpnae\Source\Repos\Introduction to Algorithms\Introduction-to-Algorithm\Introduction to Algorithm\Debug\MergeSort.exp
   MegerSort.vcxproj -> C:\Users\eijpnae\Source\Repos\Introduction to Algorithms\Introduction-to-Algorithm\Introduction to Algorithm\Debug\MergeSort.exe
   MegerSort.vcxproj -> C:\Users\eijpnae\Source\Repos\Introduction to Algorithms\Introduction-to-Algorithm\Introduction to Algorithm\Debug\MergeSort.pdb (Full PDB)
