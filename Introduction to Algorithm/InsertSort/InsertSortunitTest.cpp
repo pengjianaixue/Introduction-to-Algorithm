@@ -4,29 +4,25 @@
 int main()
 {
 	
-	int size = 10000;
-	double *needsort = new double[size];
+	double needsort[100000] = {};
 	TimeClock a;
-	for (size_t i = 0; i < size; i++)
+	for (size_t i = 0; i < std::size(needsort); i++)
 	{
-		
-		needsort[i] = (rand() % size)/1.1;
-		//COUT(needsort[i]);
+		needsort[i] = (rand() % std::size(needsort))/1.1;
 	}
 	COUT("\n\r");
 	auto time = a.MsTimeGetCounter();
 	auto timeponitsort = TimeClock::Gettime_point();
-	SelfAlgorithm::InsertSort::SelfInsertSort(needsort, size);
+	SelfAlgorithm::InsertSort::SelfInsertSort(needsort, std::size(needsort));
 	auto timesort = TimeClock::MsTimeGetCounter(timeponitsort);
-	/*for (size_t i = 0; i < size; i++)
+	for (size_t i = 0; i < std::size(needsort); i++)
 	{
 		COUT(needsort[i]);
-	}*/
+	}
 	COUT("time:");
 	COUT(time);
 	COUT("timeprintend");
 	system("pause");
-	delete[] needsort;
 	_CrtDumpMemoryLeaks(); //check the memory leaks
 	return 0;
 }

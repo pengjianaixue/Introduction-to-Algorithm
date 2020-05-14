@@ -17,21 +17,6 @@ namespace SelfAlgorithm
 	template<typename T>
 	inline void InsertSort::SelfInsertSort(T *array,int nlength)
 	{
-		// self version 
-		/*for (size_t i = 1; i < nlength; i++)
-		{
-			auto temp = array[i];
-			
-			for (size_t j = i; j >0; j--) // 会造成元素已经到了正确的位置还是继续循环
-			{
-				if(array[j - 1]>temp)
-				{
-					array[j] = array[j - 1];
-					array[j - 1] = temp; // 没有必要的拷贝 
-				}
-			}
-		}*/
-		// Book version
 		for (size_t i = 1; i < nlength; i++)
 		{
 			auto temp = array[i];
@@ -39,7 +24,7 @@ namespace SelfAlgorithm
 			while (j>=0 && array[j]>temp)
 			{
 				array[j+1] = array[j];
-				j = j - 1;
+				--j ;
 			}
 			array[j+1] = temp;
 		}

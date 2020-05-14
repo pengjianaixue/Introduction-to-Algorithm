@@ -1,6 +1,15 @@
-﻿  TimeClock.cpp
+﻿  stdafx.cpp
+  uilitiyTest.cpp
+c:\users\eijpnae\source\repos\introduction to algorithms\introduction-to-algorithm\introduction to algorithm\uilitiy\timeclock.h(20): warning C4251: “TimeClock::m_timestart”: class“std::chrono::time_point<std::chrono::steady_clock,std::chrono::steady_clock::duration>”需要有 dll 接口由 class“TimeClock”的客户端使用
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\chrono(994): note: 参见“std::chrono::time_point<std::chrono::steady_clock,std::chrono::steady_clock::duration>”的声明
+c:\users\eijpnae\source\repos\introduction to algorithms\introduction-to-algorithm\introduction to algorithm\uilitiy\uilitiytest.cpp(11): warning C4477: “printf”: 格式字符串“%64d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+  c:\users\eijpnae\source\repos\introduction to algorithms\introduction-to-algorithm\introduction to algorithm\uilitiy\uilitiytest.cpp(11): note: 请考虑在格式字符串中使用“%lld”
+  c:\users\eijpnae\source\repos\introduction to algorithms\introduction-to-algorithm\introduction to algorithm\uilitiy\uilitiytest.cpp(11): note: 请考虑在格式字符串中使用“%I64d”
+  TimeClock.cpp
 c:\users\eijpnae\source\repos\introduction to algorithms\introduction-to-algorithm\introduction to algorithm\uilitiy\timeclock.h(20): warning C4251: “TimeClock::m_timestart”: class“std::chrono::time_point<std::chrono::steady_clock,std::chrono::steady_clock::duration>”需要有 dll 接口由 class“TimeClock”的客户端使用
   c:\program files (x86)\microsoft visual studio 14.0\vc\include\chrono(994): note: 参见“std::chrono::time_point<std::chrono::steady_clock,std::chrono::steady_clock::duration>”的声明
 c:\users\eijpnae\source\repos\introduction to algorithms\introduction-to-algorithm\introduction to algorithm\uilitiy\timeclock.cpp(44): warning C4244: “初始化”: 从“double”转换到“__int64”，可能丢失数据
+  正在生成代码...
+    正在创建库 C:\Users\eijpnae\Source\Repos\Introduction to Algorithms\Introduction-to-Algorithm\Introduction to Algorithm\Debug\uilitiy.lib 和对象 C:\Users\eijpnae\Source\Repos\Introduction to Algorithms\Introduction-to-Algorithm\Introduction to Algorithm\Debug\uilitiy.exp
   uilitiy.vcxproj -> C:\Users\eijpnae\Source\Repos\Introduction to Algorithms\Introduction-to-Algorithm\Introduction to Algorithm\Debug\uilitiy.dll
   uilitiy.vcxproj -> C:\Users\eijpnae\Source\Repos\Introduction to Algorithms\Introduction-to-Algorithm\Introduction to Algorithm\Debug\uilitiy.pdb (Full PDB)
